@@ -1,0 +1,15 @@
+{
+  "name": "html",
+  "version": "1.0.0",
+  "main": "scripts.js",
+  "scripts": {
+    "start": "concurrently \"python generate_homework_list.py\" \"live-server ./\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
+}
