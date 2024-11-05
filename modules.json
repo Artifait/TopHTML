@@ -1,7 +1,12 @@
 {
-    "ModuleOne": [
+    "ClassWorkOne": [
         "Task1.html",
         "Task2.html"
+    ],
+    "ModuleOne": [
+        "Task1.html",
+        "Task2.html",
+        "Task3.html"
     ],
     "ModuleTwo": [
         "Task1.html"

@@ -1,0 +1,34 @@
+
+.card-container {
+    display: flex;
+    flex-direction: column; /* Устанавливаем вертикальное направление */
+    gap: 20px;
+}
+
+.card {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.card p {
+    line-height: 1.5;
+}
+
+/* Индивидуальные стили для каждой карточки */
+.tag {
+    background-color: #4CAF50; /* зеленый */
+}
+
+.attribute {
+    background-color: #2196F3; /* синий */
+}
+
+.element {
+    background-color: #FF5722; /* оранжевый */
+}

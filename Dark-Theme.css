@@ -44,7 +44,7 @@ header nav a:hover {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #181616;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -55,14 +55,14 @@ header nav a:hover {
 }
 
 .dropdown-content a {
-    color: black;
+    color: rgb(255, 255, 255);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
 
 .dropdown-content a:hover {
-    background-color: #f1f1f1;
+    background-color: #224f1e;
 }
 
 /* Основной контейнер для контента */
@@ -83,16 +83,16 @@ a:hover {
 }
 
 button {
-    background-color: #BB86FC;
+    background-color: #308f4e;
     color: #121212;
     border: none;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 0px;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 button:hover {
-    background-color: #b30042;
+    background-color: #087658;
 }
 
 input[type="text"], textarea {
@@ -104,20 +104,6 @@ input[type="text"], textarea {
 }
 input[type="text"]::placeholder, textarea::placeholder {
     color: #AAAAAA; 
-}
-
-.card {
-    background-color: #1E1E1E;
-    color: #E0E0E0;
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    margin-bottom: 20px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
 hr {
@@ -245,4 +231,33 @@ td {
 .contact-form textarea {
     height: 150px;
     resize: none;
+}
+
+pre[class*="language-"] {
+  position: relative;
+  overflow: auto;
+
+  /* make space  */
+  margin: 5px 0;
+  padding: 1.75rem 0 1.75rem 1rem;
+  border-radius: 10px;
+}
+
+pre[class*="language-"] button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+
+  font-size: 0.9rem;
+  padding: 0.15rem;
+  background-color: #828282;
+
+  border: ridge 1px #7b7b7c;
+  border-radius: 5px;
+  text-shadow: #c4c4c4 0 0 2px;
+}
+
+pre[class*="language-"] button:hover {
+  cursor: pointer;
+  background-color: #bcbabb;
 }
