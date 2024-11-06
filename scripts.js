@@ -97,6 +97,18 @@ async function copyCode(block, button) {
   }, 700);
 }
 
+//Код для Todo Lists
+function toggleComplete(item) {
+    item.classList.toggle('completed');
+}
+
+function deleteItem(event) {
+    event.stopPropagation();
+    const item = event.target.closest('.todo-item');
+    item.remove();
+}
+
+
 // Код для игры в карты
 const symbols = ['♠', '♠', '♥', '♥', '♦', '♦', '♣', '♣', '★', '★'];
 let cards = [];
